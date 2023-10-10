@@ -1,3 +1,3 @@
 # on-guitar
 
-Projeto que visa clonar o tabnews.
+Projeto que visa criar um espaço de valor para os amantes da guitarra.

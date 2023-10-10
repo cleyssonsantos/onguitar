@@ -1,7 +1,10 @@
 function Home() {
   return (
     <h1>
-      Julia, eu amo você muito! Se você me ama também, me da um sorriso :D
+      Estou neste exato momento construindo um novo local na internet para quem
+      é <b>apaixonado por guitarra</b> e precisa consumir conteúdos que vão
+      ajudar tanto os mais novos nesse mundo, como os mais experientes na
+      guitarra.
     </h1>
   );
 }
