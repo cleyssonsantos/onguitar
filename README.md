@@ -4,6 +4,9 @@ Projeto que visa criar um espaço de valor para os amantes da guitarra.
 
 # Como executar
 
+## Instalando dependências
+nvm install - Buscará o arquivo .nvmrc "run commands"
+
 ## Rodando o projeto local
 npm run dev
 
