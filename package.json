@@ -1,10 +1,13 @@
 {
-  "name": "clone-tabnews",
+  "name": "onguitar",
   "version": "1.0.0",
-  "description": "Projeto que visa clonar o tabnews.",
+  "description": "Projeto que visa criar um local para amantes da guitarra.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose -f infra/compose.yaml up -d",
+    "services:stop": "docker compose -f infra/compose.yaml stop",
+    "services:down": "docker compose -f infra/compose.yaml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
