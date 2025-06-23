@@ -8,6 +8,8 @@ Projeto que visa criar um espaço de valor para os amantes da guitarra.
 
 nvm install - Buscará o arquivo .nvmrc "run commands"
 
+Para instalar apenas para uma dependência de desenvolvimento: npm install --save-dev lib@0.0.0
+
 ## Para instalar as dependências do package.json
 
 npm install
