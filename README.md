@@ -26,3 +26,7 @@ npm run test:watch
 ## Subindo banco de dados
 
 docker compose -f infra/compose.yaml up -d
+
+## Usando commitizen para facilitar commits no padrão Conventional Commits
+
+npm run commit
